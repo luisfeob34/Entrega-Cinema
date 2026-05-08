@@ -1,3 +1,4 @@
+```mermaid
    @startuml Diagramas de Casos de Uso
     left to right direction
     actor "Administrador" as Admin
@@ -15,3 +16,4 @@
     Admin --> UC4
     Esp --> UC3
     @enduml
+```
