@@ -1,0 +1,13 @@
+@startuml Diagramas de Atividade
+start
+:Selecionar Sessão;
+repeat
+  :Informar Público;
+  if (Público <= Capacidade da Sala?) then (sim)
+    :Salvar no Banco de Dados;
+    stop
+  else (não)
+    :Exibir Erro: Capacidade Excedida;
+  endif
+repeat while (Deseja corrigir os dados?)
+@enduml
